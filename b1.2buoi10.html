@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML DOM</h2>
+
+<p>Tìm mã sinh viên </p>
+<p class="intro">Mạnh hiếu</p>
+
+<p id="demo"></p>
+
+<script>
+const x = document.getElementsByClassName("intro");
+document.getElementById("demo").innerHTML = 
+'Thông báo trả về mã sinh viên của Hiếu là 224001788' + x[0].innerHTML;   
+</script>
+
+</body>
+</html>
